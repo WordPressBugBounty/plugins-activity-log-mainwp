@@ -1,0 +1,1809 @@
+# Copyright (C) 2024 Melapress
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Activity Log for MainWP 2.1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/activity-log-mainwp\n"
+"Last-Translator: Melapress <info@melapress.com> <info@melapress.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-22T06:16:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: mwp-al-ext\n"
+
+#. Plugin Name of the plugin
+#: activity-log-mainwp.php:797
+msgid "Activity Log for MainWP"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpactivitylog.com/extensions/mainwp-activity-log/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This extension for MainWP enables you to view the activity logs of all child sites in one central location, the MainWP dashboard."
+msgstr ""
+
+#. Author of the plugin
+msgid "Melapress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://melapress.com/"
+msgstr ""
+
+#. Translators: %s: Getting started guide hyperlink.
+#: activity-log-mainwp.php:332
+msgid "This extension should be installed on the MainWP dashboard site. On the child sites please install the WP Activity Log plugin. Refer to the %s for more information."
+msgstr ""
+
+#. Translators: %s: Getting started guide hyperlink
+#: activity-log-mainwp.php:333
+#: includes/views/class-setup-wizard.php:292
+msgid "Getting Started Guide"
+msgstr ""
+
+#. Translators: MainWP website hyperlink
+#: activity-log-mainwp.php:505
+msgid "Activity Log for MainWP Extension requires %1$s plugin to be activated in order to work. Please install and activate %2$s first."
+msgstr ""
+
+#: activity-log-mainwp.php:517
+msgid "The Activity Log for MainWP extension is being merged in WP Activity Log 5.0, which is to be released in the upcoming days. Please %1$s before upgrading."
+msgstr ""
+
+#: activity-log-mainwp.php:745
+msgid "View Activity Log"
+msgstr ""
+
+#: activity-log-mainwp.php:746
+msgid "Settings"
+msgstr ""
+
+#: default-events.php:51
+msgid "Fatal run-time error."
+msgstr ""
+
+#: default-events.php:55
+msgid "Run-time warning (non-fatal error)."
+msgstr ""
+
+#: default-events.php:59
+msgid "Compile-time parse error."
+msgstr ""
+
+#: default-events.php:63
+msgid "Run-time notice."
+msgstr ""
+
+#: default-events.php:67
+msgid "Fatal error that occurred during startup."
+msgstr ""
+
+#: default-events.php:71
+msgid "Warnings that occurred during startup."
+msgstr ""
+
+#: default-events.php:75
+msgid "Fatal compile-time error."
+msgstr ""
+
+#: default-events.php:79
+msgid "Compile-time warning."
+msgstr ""
+
+#: default-events.php:83
+msgid "User-generated error message."
+msgstr ""
+
+#: default-events.php:87
+msgid "User-generated warning message."
+msgstr ""
+
+#: default-events.php:91
+msgid "User-generated notice message."
+msgstr ""
+
+#: default-events.php:95
+msgid "Non-standard/optimal code warning."
+msgstr ""
+
+#: default-events.php:99
+msgid "Catchable fatal error."
+msgstr ""
+
+#: default-events.php:103
+msgid "Run-time deprecation notices."
+msgstr ""
+
+#: default-events.php:107
+msgid "Run-time user deprecation notices."
+msgstr ""
+
+#: default-events.php:112
+msgid "Critical, high-impact messages."
+msgstr ""
+
+#: default-events.php:116
+msgid "Debug informational messages."
+msgstr ""
+
+#: default-events.php:126
+msgid "Critical severity events."
+msgstr ""
+
+#: default-events.php:128
+msgid "High severity events."
+msgstr ""
+
+#: default-events.php:130
+msgid "Medium severity events."
+msgstr ""
+
+#: default-events.php:132
+msgid "Low severity events."
+msgstr ""
+
+#: default-events.php:134
+msgid "Informational events."
+msgstr ""
+
+#: default-events.php:139
+#: default-events.php:140
+#: includes/class-alertmanager.php:674
+#: includes/views/class-view.php:640
+#: includes/views/class-view.php:754
+msgid "MainWP"
+msgstr ""
+
+#: default-events.php:144
+msgid "User added the child site"
+msgstr ""
+
+#: default-events.php:145
+#: default-events.php:153
+#: default-events.php:161
+msgid "The child site %friendly_name% %LineBreak% URL: %site_url%"
+msgstr ""
+
+#: default-events.php:152
+msgid "User removed the child site"
+msgstr ""
+
+#: default-events.php:160
+msgid "User edited the child site"
+msgstr ""
+
+#: default-events.php:168
+msgid "User synced data with the child site"
+msgstr ""
+
+#: default-events.php:169
+msgid "Synced data with the child %friendly_name% %LineBreak% URL: %site_url%"
+msgstr ""
+
+#: default-events.php:176
+msgid "User synced data with all the child sites"
+msgstr ""
+
+#: default-events.php:177
+msgid "Synced data with all the child sites"
+msgstr ""
+
+#: default-events.php:184
+msgid "User installed the extension"
+msgstr ""
+
+#: default-events.php:185
+#: default-events.php:193
+#: default-events.php:201
+#: default-events.php:209
+msgid "The extension %extension_name%"
+msgstr ""
+
+#: default-events.php:192
+msgid "User activated the extension"
+msgstr ""
+
+#: default-events.php:200
+msgid "User deactivated the extension"
+msgstr ""
+
+#: default-events.php:208
+msgid "User uninstalled the extension"
+msgstr ""
+
+#: default-events.php:216
+msgid "User added/removed extension to/from the menu"
+msgstr ""
+
+#: default-events.php:217
+msgid "The extension %extension% %option% the MainWP menu"
+msgstr ""
+
+#: default-events.php:224
+msgid "Extension failed to retrieve the activity log of a child site"
+msgstr ""
+
+#: default-events.php:225
+msgid "Failed to retrieve the activity log of the child site %friendly_name% %LineBreak% URL: %site_url%"
+msgstr ""
+
+#: default-events.php:232
+msgid "Extension started retrieving activity logs from the child sites"
+msgstr ""
+
+#: default-events.php:233
+msgid "Retrieving activity logs from child sites"
+msgstr ""
+
+#: default-events.php:240
+msgid "Extension is ready retrieving activity logs from the child sites"
+msgstr ""
+
+#: default-events.php:241
+msgid "Extension is ready retrieving activity logs from child sites"
+msgstr ""
+
+#: default-events.php:248
+msgid "Changed the enforcement settings of the Child sites activity log settings"
+msgstr ""
+
+#: default-events.php:249
+msgid "The status of the <strong>Child sites activity log settings</strong> %LineBreak% Previous status: %old_status% %LineBreak% New status: %new_status%"
+msgstr ""
+
+#: default-events.php:256
+msgid "Added or removed a child site from the Child sites activity log settings"
+msgstr ""
+
+#: default-events.php:257
+msgid "A child site to / from the <strong>Child sites activity log settings</strong> %LineBreak% Site name: %friendly_name% %LineBreak% URL: %site_url%"
+msgstr ""
+
+#: default-events.php:264
+msgid "Modified the Child sites activity log settings that are propagated to the child sites"
+msgstr ""
+
+#: default-events.php:265
+msgid "The <strong>child sites activity log settings</strong> that are propagated to the child sites"
+msgstr ""
+
+#: default-events.php:272
+msgid "Started or finished propagating the configured Child sites activity log settings to the child sites"
+msgstr ""
+
+#: default-events.php:273
+msgid "Propagating the configured <strong>Child sites activity log settings</strong>"
+msgstr ""
+
+#: default-events.php:280
+msgid "The propagation of the Child sites activity log settings failed on a child site site"
+msgstr ""
+
+#: default-events.php:281
+msgid "The propagation of the <strong>Child sites activity log settings</strong> failed on this site %LineBreak% Site name: %friendly_name% %LineBreak% URL: %site_url% %LineBreak% Error message: %message%"
+msgstr ""
+
+#: default-events.php:288
+msgid "User added a monitor for site"
+msgstr ""
+
+#: default-events.php:289
+msgid "A monitor for the site %friendly_name% in Advanced Uptime Monitor extension %LineBreak% URL: %site_url%"
+msgstr ""
+
+#: default-events.php:296
+msgid "User deleted a monitor for site"
+msgstr ""
+
+#: default-events.php:297
+#: default-events.php:305
+msgid "The monitor for the site %friendly_name% in Advanced Uptime Monitor extension %LineBreak% URL: %site_url%"
+msgstr ""
+
+#: default-events.php:304
+msgid "User started the monitor for the site"
+msgstr ""
+
+#: default-events.php:312
+msgid "User stopped the monitor for the site"
+msgstr ""
+
+#: default-events.php:313
+msgid "Paused the monitor for the site %friendly_name% in Advanced Uptime Monitor extension %LineBreak% URL: %site_url%"
+msgstr ""
+
+#: default-events.php:320
+msgid "User created monitors for all child sites"
+msgstr ""
+
+#: default-events.php:321
+msgid "Created monitors for all child sites"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:398
+msgid "System Activity"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:458
+#: includes/views/class-auditloggridview.php:98
+#: includes/views/class-auditloglistview.php:93
+msgid "Unknown error code."
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:472
+#: extensions/reports/includes/report-functions.php:36
+#: includes/views/class-auditloggridview.php:85
+#: includes/views/class-auditloglistview.php:80
+#: includes/views/class-auditlogview.php:321
+msgid "MainWP Dashboard"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:490
+#: includes/views/class-auditloggridview.php:150
+#: includes/views/class-auditloggridview.php:198
+#: includes/views/class-auditloglistview.php:146
+#: includes/views/class-auditloglistview.php:196
+msgid "System"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:1065
+msgid "%1$s — Website %2$s"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:1068
+msgid "Week number %1$s — Website %2$s"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:1071
+msgid "Month %1$s %2$s — Website %3$s"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:1074
+msgid "Quarter %1$s — Website %2$s"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-common.php:1080
+msgid " — %s Email Report"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-view.php:60
+#: extensions/reports/includes/class-reports-view.php:77
+#: extensions/reports/includes/class-reports-view.php:94
+msgid "Reports"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-view.php:114
+msgid "Generate a report"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-view.php:309
+msgid "By default the reports are generated from the events imported in the MainWP extension."
+msgstr ""
+
+#: extensions/reports/includes/class-reports-view.php:310
+msgid "Do you want to also include events from the child sites’ activity logs in the report? If you include events from child sites the plugin will take a bit longer to generate the report."
+msgstr ""
+
+#: extensions/reports/includes/class-reports-view.php:312
+msgid "Yes, extend the report"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-view.php:313
+msgid "No"
+msgstr ""
+
+#: extensions/reports/includes/class-reports-view.php:318
+msgid " Generating report. Please do not close this window."
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:84
+msgid "Blog Name"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:85
+#: extensions/reports/includes/generators/class-html-report-generator.php:247
+#: includes/views/class-view.php:875
+msgid "Code"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:86
+#: extensions/reports/includes/generators/class-html-report-generator.php:248
+msgid "Type"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:87
+#: extensions/reports/includes/generators/class-html-report-generator.php:249
+#: extensions/search/includes/filters/class-filter-date.php:26
+#: includes/views/class-auditloglistview.php:292
+#: includes/views/class-auditloglistview.php:320
+msgid "Date"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:88
+#: extensions/reports/includes/generators/class-html-report-generator.php:250
+#: extensions/search/includes/class-filters-manager.php:365
+msgid "Username"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:89
+#: extensions/reports/includes/generators/class-html-report-generator.php:251
+#: extensions/search/includes/filters/class-filter-user-lastname.php:28
+#: extensions/search/includes/filters/class-filter-username.php:28
+#: includes/views/class-auditloglistview.php:293
+#: includes/views/class-auditloglistview.php:323
+#: includes/views/class-view.php:845
+msgid "User"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:90
+#: extensions/reports/includes/generators/class-html-report-generator.php:252
+msgid "Role"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:91
+#: extensions/reports/includes/generators/class-html-report-generator.php:253
+#: includes/views/class-auditloglistview.php:294
+#: includes/views/class-auditloglistview.php:326
+msgid "Source IP"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-csv-report-generator.php:92
+#: extensions/reports/includes/generators/class-html-report-generator.php:254
+#: includes/views/class-auditloggridview.php:343
+#: includes/views/class-auditloglistview.php:297
+#: includes/views/class-auditloglistview.php:329
+msgid "Message"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:96
+msgid "WP Activity Log Reporter"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:120
+msgid "Report from"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:120
+msgid "website"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:127
+msgid "Report Details:"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:128
+msgid "Generated on:"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:129
+msgid "Generated by:"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:135
+msgid "Site(s)"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:136
+msgid "User(s)"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:137
+msgid "Role(s)"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:138
+msgid "IP address(es)"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:139
+msgid "Alert Groups"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:140
+msgid "Alert Code(s)"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:141
+msgid "Start date"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:142
+msgid "End date"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:143
+msgid "Post Types"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:144
+#: extensions/search/includes/class-filters-manager.php:385
+#: extensions/search/includes/filters/class-filter-post-status.php:28
+#: extensions/search/includes/filters/class-filter-post-status.php:43
+msgid "Post Status"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:152
+#: extensions/reports/includes/generators/class-html-report-generator.php:156
+msgid "All"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:153
+msgid "From the beginning"
+msgstr ""
+
+#: extensions/reports/includes/generators/class-html-report-generator.php:212
+msgid "Criteria"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:69
+msgid "Periodic report deleted successfully."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:71
+msgid "Periodic report name not found."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:101
+msgid "Step 1: Select the type of report"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:105
+msgid "By Site(s)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:110
+msgid "All sites"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:115
+msgid "Specify sites"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:123
+msgid "By User(s)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:128
+msgid "All users"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:133
+msgid "Specify users"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:141
+msgid "By Role(s)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:146
+msgid "All roles"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:151
+msgid "Specify roles"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:159
+msgid "By IP Address(es)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:164
+msgid "All IP addresses"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:169
+msgid "Specify IP addresses"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:177
+msgid "By Event Code(s)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:187
+msgid "Select All"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:205
+msgid "Specify Event Codes"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:226
+msgid "Step 2: Select the date range"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:227
+msgid "Note: Do not specify any dates if you are creating a scheduled report or if you want to generate a report from when you started the audit trail."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:231
+msgid "Start Date"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:234
+msgid "Select start date"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:240
+msgid "End Date"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:243
+msgid "Select end date"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:265
+msgid "Step 3: Select the report format"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:272
+msgid "HTML"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:276
+msgid "CSV"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:300
+msgid "Step 4: Generate Report Now or Configure Periodic Reports"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:302
+msgid "Generate Report Now"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:303
+msgid "Use the buttons below to use the above criteria for a daily, weekly and monthly summary report which is sent automatically via email."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:306
+msgid "Email Address(es)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:309
+msgid "Email"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:314
+msgid "Report Name"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:317
+#: extensions/reports/includes/reports/class-report-periodic.php:362
+msgid "Name"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:322
+#: extensions/reports/includes/reports/class-report-periodic.php:364
+msgid "Frequency"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:326
+#: extensions/reports/includes/reports/class-report-periodic.php:386
+#: extensions/reports/includes/reports/class-report-periodic.php:612
+msgid "Daily"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:328
+#: extensions/reports/includes/reports/class-report-periodic.php:384
+#: extensions/reports/includes/reports/class-report-periodic.php:614
+msgid "Weekly"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:330
+#: extensions/reports/includes/reports/class-report-periodic.php:382
+#: extensions/reports/includes/reports/class-report-periodic.php:616
+msgid "Monthly"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:332
+#: extensions/reports/includes/reports/class-report-periodic.php:380
+#: extensions/reports/includes/reports/class-report-periodic.php:618
+msgid "Quarterly"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:355
+msgid "Configured Periodic Reports"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:357
+msgid "Below is the list of configured periodic reports. Click on Modify to load the criteria and configure it above. To save the new criteria as a new report change the report name and save it. Do not change the report name to overwrite the existing periodic report."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:358
+msgid "Note: Use the Send Now button to generate a report with data from the last 90 days if a quarterly report is configured, 30 days if monthly report is configured and 7 days if weekly report is configured."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:363
+msgid "Email address(es)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:399
+msgid "Send Now"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:400
+msgid "Modify"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:401
+msgid "Delete"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:429
+msgid "Select site(s)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:431
+#: includes/views/class-enforce-settings-view.php:621
+msgid "Select event code(s)"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:435
+msgid "Please specify at least one site."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:436
+msgid "Please specify at least one user."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:437
+msgid "Please specify at least one role."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:438
+msgid "Please specify at least one IP address."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:439
+msgid "Please specify at least one event group or specify an event code."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:440
+msgid "Process completed."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:441
+msgid "There are no events that match your filtering criteria."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:442
+msgid "Sending..."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:443
+msgid "Email sent"
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:488
+msgid "Invalid Request. Please refresh the page and try again."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:497
+msgid "Error: Please select SITES."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:514
+msgid "Error: Please provide at least one username."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:531
+msgid "Error: Please provide at least one user role."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:558
+msgid "Error: Please provide at least one IP address."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:601
+msgid "Please select the report format."
+msgstr ""
+
+#: extensions/reports/includes/reports/class-report-periodic.php:634
+msgid "Periodic Report successfully saved."
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:234
+#: includes/views/class-view.php:1639
+msgid "Remove"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:235
+msgid "Search Filters"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:240
+msgid "Close Filters"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:241
+#: extensions/search/includes/class-filters-manager.php:302
+msgid "Filter View"
+msgstr ""
+
+#. translators: both placeholders are html formatting strings for itallics
+#: extensions/search/includes/class-filters-manager.php:244
+msgid "Click the %1$sSearch%2$s or %1$sClear Search Results%2$s button to apply the new filters or reset all filters."
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:293
+msgid "Do not show this message again"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:294
+msgid "Dismiss this notice."
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:317
+#: extensions/search/includes/class-filters-manager.php:354
+msgid "Refer to the <a href=\"https://wpactivitylog.com/support/kb/list-wordpress-activity-log-event-ids/\" target=\"_blank\" rel=\"nofollow noopener\">list of Event IDs</a> for reference."
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:329
+msgid "Refer to the <a href=\"https://wpactivitylog.com/support/kb/list-wordpress-activity-log-event-ids/\"  target=\"_blank\" rel=\"nofollow noopener\">metadata in the activity log</a> for reference."
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:341
+msgid "Refer to the <a href=\"https://www.wpactivitylog.com/support/kb/severity-levels-wordpress-activity-log/\" target=\"_blank\" rel=\"nofollow noopener\">severity levels in the activity log</a> for reference."
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:366
+msgid "Filter by username"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:369
+msgid "First Name"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:370
+msgid "Filter by user first name"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:373
+msgid "Last Name"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:374
+msgid "Filter by user last name"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:377
+#: extensions/search/includes/filters/class-filter-user-role.php:28
+#: extensions/search/includes/filters/class-filter-user-role.php:43
+msgid "User Role"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:378
+msgid "Filter by user roles"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:381
+msgid "User Filters"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:386
+msgid "Filter by post status"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:389
+#: extensions/search/includes/filters/class-filter-post-type.php:28
+#: extensions/search/includes/filters/class-filter-post-type.php:43
+msgid "Post Type"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:390
+msgid "Filter by post type"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:393
+#: extensions/search/includes/filters/class-filter-post-id.php:28
+#: extensions/search/includes/filters/class-filter-post-id.php:42
+msgid "Post ID"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:394
+msgid "Filter by post ID"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:397
+#: extensions/search/includes/filters/class-filter-post-name.php:28
+#: extensions/search/includes/filters/class-filter-post-name.php:42
+msgid "Post Name"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:398
+msgid "Filter by post name"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:401
+msgid "Post Filters"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:410
+msgid "Select Site to view"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:422
+#: includes/views/class-auditlogview.php:320
+msgid "All Sites"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:433
+msgid "Select A Specific Site from the Network"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:456
+msgid "Enter an IP address to filter"
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:477
+msgid "Search in "
+msgstr ""
+
+#: extensions/search/includes/class-filters-manager.php:479
+msgid "Search in MainWP DB"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-date.php:41
+msgid "Later than"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-date.php:42
+msgid "Earlier than"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-date.php:43
+msgid "On this day"
+msgstr ""
+
+#. Translators: %s: Filter prefix.
+#: extensions/search/includes/filters/class-filter-date.php:80
+#: extensions/search/includes/filters/class-filter-event-id.php:57
+#: extensions/search/includes/filters/class-filter-eventtype.php:97
+#: extensions/search/includes/filters/class-filter-ip.php:85
+#: extensions/search/includes/filters/class-filter-object.php:98
+#: extensions/search/includes/filters/class-filter-post-id.php:88
+#: extensions/search/includes/filters/class-filter-post-name.php:89
+#: extensions/search/includes/filters/class-filter-post-status.php:97
+#: extensions/search/includes/filters/class-filter-post-type.php:107
+#: extensions/search/includes/filters/class-filter-severity.php:96
+#: extensions/search/includes/filters/class-filter-user-firstname.php:84
+#: extensions/search/includes/filters/class-filter-user-lastname.php:83
+#: extensions/search/includes/filters/class-filter-user-role.php:87
+#: extensions/search/includes/filters/class-filter-username.php:137
+msgid "Unsupported filter %s."
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-event-id.php:25
+#: extensions/search/includes/filters/class-filter-event-id.php:39
+#: includes/views/class-auditloggridview.php:340
+#: includes/views/class-auditloggridview.php:360
+#: includes/views/class-auditloglistview.php:290
+#: includes/views/class-auditloglistview.php:314
+#: includes/views/class-view.php:839
+msgid "Event ID"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-eventtype.php:28
+#: extensions/search/includes/filters/class-filter-eventtype.php:43
+#: includes/views/class-auditloglistview.php:296
+#: includes/views/class-auditloglistview.php:332
+msgid "Event Type"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-eventtype.php:43
+#: extensions/search/includes/filters/class-filter-object.php:43
+msgid "Select an Object to filter"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-ip.php:28
+msgid "IP"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-ip.php:42
+msgid "IP Address"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-object.php:28
+#: extensions/search/includes/filters/class-filter-object.php:43
+#: includes/views/class-auditloglistview.php:295
+#: includes/views/class-auditloglistview.php:335
+msgid "Object"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-severity.php:28
+#: extensions/search/includes/filters/class-filter-severity.php:43
+#: includes/views/class-auditloggridview.php:341
+#: includes/views/class-auditloggridview.php:363
+#: includes/views/class-auditloglistview.php:291
+#: includes/views/class-auditloglistview.php:317
+#: includes/views/class-view.php:841
+#: includes/views/class-view.php:876
+msgid "Severity"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-severity.php:43
+msgid "Select a Severity to filter"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-severity.php:102
+#: includes/views/class-auditloggridview.php:102
+#: includes/views/class-auditloggridview.php:108
+#: includes/views/class-auditloglistview.php:97
+#: includes/views/class-auditloglistview.php:103
+#: includes/views/class-view.php:890
+msgid "Critical"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-severity.php:103
+#: includes/views/class-auditloggridview.php:110
+#: includes/views/class-auditloglistview.php:105
+msgid "High"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-severity.php:104
+#: includes/views/class-auditloggridview.php:112
+#: includes/views/class-auditloglistview.php:107
+msgid "Medium"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-severity.php:105
+#: includes/views/class-auditloggridview.php:114
+#: includes/views/class-auditloglistview.php:109
+msgid "Low"
+msgstr ""
+
+#: extensions/search/includes/filters/class-filter-severity.php:106
+#: includes/views/class-auditloggridview.php:116
+#: includes/views/class-auditloggridview.php:342
+#: includes/views/class-auditloggridview.php:366
+#: includes/views/class-auditloglistview.php:111
+msgid "Info"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-abstract-widget.php:125
+msgid "* Invalid"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-date.php:35
+#: extensions/search/includes/filters/widgets/class-widget-event-id.php:33
+#: extensions/search/includes/filters/widgets/class-widget-ip.php:32
+#: extensions/search/includes/filters/widgets/class-widget-post-id.php:31
+#: extensions/search/includes/filters/widgets/class-widget-post-name.php:31
+#: extensions/search/includes/filters/widgets/class-widget-user-firstname.php:31
+#: extensions/search/includes/filters/widgets/class-widget-user-lastname.php:31
+#: extensions/search/includes/filters/widgets/class-widget-username.php:31
+msgid "Add this filter"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-date.php:45
+msgid "* Invalid Date"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-event-id.php:31
+msgid "Enter an Event ID to filter - example: 1000"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-ip.php:30
+msgid "192.168.128.255"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-post-id.php:29
+msgid "Enter a post id to filter"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-post-name.php:29
+msgid "Enter a post name to filter"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-select-single.php:35
+#: extensions/search/includes/filters/widgets/class-widget-user-role.php:29
+msgid "Select an option"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-user-firstname.php:29
+msgid "Enter a users first name to filter"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-user-lastname.php:29
+msgid "Enter a users last name to filter"
+msgstr ""
+
+#: extensions/search/includes/filters/widgets/class-widget-username.php:29
+msgid "Enter a user name filter"
+msgstr ""
+
+#. Translators: Event ID
+#: includes/class-alertmanager.php:159
+msgid "Event %s already registered with Activity Log MainWP Extension."
+msgstr ""
+
+#: includes/class-alertmanager.php:177
+msgid "You have custom events that are using the same ID or IDs which are already registered in the plugin, so they have been disabled."
+msgstr ""
+
+#. Translators: 1.CSS classes, 2. Notice, 3. Contact us link
+#: includes/class-alertmanager.php:180
+msgid "%4$s to help you solve this issue."
+msgstr ""
+
+#: includes/class-alertmanager.php:182
+msgid "ERROR:"
+msgstr ""
+
+#: includes/class-alertmanager.php:184
+msgid "Contact us"
+msgstr ""
+
+#. translators: Event ID
+#: includes/class-alertmanager.php:366
+msgid "Event with code %d has not be registered."
+msgstr ""
+
+#: includes/class-alertmanager.php:671
+#: includes/views/class-view.php:1496
+msgid "Activity Logs"
+msgstr ""
+
+#: includes/class-alertmanager.php:672
+msgid "Child Site"
+msgstr ""
+
+#: includes/class-alertmanager.php:673
+msgid "Extension"
+msgstr ""
+
+#: includes/class-alertmanager.php:675
+msgid "Uptime Monitor"
+msgstr ""
+
+#: includes/class-alertmanager.php:715
+msgid "Activated"
+msgstr ""
+
+#: includes/class-alertmanager.php:716
+msgid "Added"
+msgstr ""
+
+#: includes/class-alertmanager.php:717
+msgid "Created"
+msgstr ""
+
+#: includes/class-alertmanager.php:718
+msgid "Deactivated"
+msgstr ""
+
+#: includes/class-alertmanager.php:719
+msgid "Deleted"
+msgstr ""
+
+#: includes/class-alertmanager.php:720
+msgid "Failed"
+msgstr ""
+
+#: includes/class-alertmanager.php:721
+msgid "Finished"
+msgstr ""
+
+#: includes/class-alertmanager.php:722
+msgid "Installed"
+msgstr ""
+
+#: includes/class-alertmanager.php:723
+msgid "Modified"
+msgstr ""
+
+#: includes/class-alertmanager.php:724
+msgid "Removed"
+msgstr ""
+
+#: includes/class-alertmanager.php:725
+msgid "Started"
+msgstr ""
+
+#: includes/class-alertmanager.php:726
+msgid "Stopped"
+msgstr ""
+
+#: includes/class-alertmanager.php:727
+msgid "Synced"
+msgstr ""
+
+#: includes/class-alertmanager.php:728
+msgid "Uninstalled"
+msgstr ""
+
+#: includes/class-alertmanager.php:729
+msgid "Updated"
+msgstr ""
+
+#: includes/class-settings.php:753
+#: includes/views/class-auditloggridview.php:462
+#: includes/views/class-auditloglistview.php:435
+msgid "Download the log file"
+msgstr ""
+
+#: includes/class-settings.php:773
+#: includes/views/class-auditloggridview.php:482
+#: includes/views/class-auditloglistview.php:455
+msgid "Download the log file."
+msgstr ""
+
+#: includes/class-settings.php:781
+#: includes/views/class-auditloggridview.php:490
+#: includes/views/class-auditloglistview.php:463
+msgid "published"
+msgstr ""
+
+#: includes/class-settings.php:809
+#: includes/views/class-auditloggridview.php:316
+#: includes/views/class-auditloggridview.php:510
+#: includes/views/class-auditloglistview.php:266
+#: includes/views/class-auditloglistview.php:483
+msgid "Alert Data Inspector"
+msgstr ""
+
+#. translators: Mailto link for support.
+#: includes/class-settings.php:820
+#: includes/views/class-auditloggridview.php:518
+#: includes/views/class-auditloglistview.php:491
+msgid "Contact us on %s for assistance"
+msgstr ""
+
+#: includes/class-settings.php:832
+#: includes/views/class-auditloggridview.php:530
+#: includes/views/class-auditloglistview.php:503
+msgid "plugin settings"
+msgstr ""
+
+#: includes/class-settings.php:835
+#: includes/views/class-auditloggridview.php:533
+#: includes/views/class-auditloglistview.php:506
+msgid "contact our support"
+msgstr ""
+
+#: includes/helpers/class-datahelper.php:62
+msgid "Pages"
+msgstr ""
+
+#: includes/helpers/class-datahelper.php:62
+msgid "Custom Post Types"
+msgstr ""
+
+#: includes/models/class-occurrence.php:192
+msgid "Please check if you're using the latest version of WP Activity Log plugin on your child sites. Contact our support team if you're seeing this message even after upgrading to the latest version."
+msgstr ""
+
+#: includes/processes/class-enforce-settings-background-process.php:58
+msgid "No error message returned from the child site."
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:104
+#: includes/views/class-auditloglistview.php:99
+#: includes/views/class-view.php:892
+msgid "Warning"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:106
+#: includes/views/class-auditloglistview.php:101
+#: includes/views/class-view.php:894
+#: includes/views/class-view.php:896
+msgid "Notification"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:123
+#: includes/views/class-auditloggridview.php:127
+#: includes/views/class-auditloggridview.php:194
+#: includes/views/class-auditloglistview.php:118
+#: includes/views/class-auditloglistview.php:192
+msgid "Unknown"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:141
+#: includes/views/class-auditloglistview.php:134
+msgid "Plugin"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:144
+#: includes/views/class-auditloglistview.php:138
+msgid "Plugins"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:147
+#: includes/views/class-auditloglistview.php:142
+msgid "Website Visitor"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:232
+#: includes/views/class-auditloggridview.php:245
+#: includes/views/class-auditloglistview.php:217
+#: includes/views/class-auditloglistview.php:230
+msgid "Show me all activity originating from this IP Address"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:315
+#: includes/views/class-auditloglistview.php:265
+msgid "View all details of this change"
+msgstr ""
+
+#. translators: Column Name
+#: includes/views/class-auditloggridview.php:327
+#: includes/views/class-auditloglistview.php:277
+msgid "Column \"%s\" not found"
+msgstr ""
+
+#: includes/views/class-auditloggridview.php:339
+#: includes/views/class-auditloggridview.php:357
+#: includes/views/class-auditloglistview.php:289
+#: includes/views/class-auditloglistview.php:311
+msgid "Site"
+msgstr ""
+
+#: includes/views/class-auditloglistview.php:512
+msgid "View form in the editor"
+msgstr ""
+
+#: includes/views/class-auditlogview.php:90
+msgid "List View"
+msgstr ""
+
+#: includes/views/class-auditlogview.php:112
+msgid "No events so far."
+msgstr ""
+
+#: includes/views/class-auditlogview.php:289
+msgid "Show "
+msgstr ""
+
+#: includes/views/class-auditlogview.php:300
+msgid " Items"
+msgstr ""
+
+#: includes/views/class-auditlogview.php:307
+msgid "— End of Activity Log —"
+msgstr ""
+
+#: includes/views/class-auditlogview.php:338
+msgid "Retrieve Activity Logs Now"
+msgstr ""
+
+#: includes/views/class-auditlogview.php:408
+msgid "You need WP Activity Log Premium on %s to search in the activity log."
+msgstr ""
+
+#: includes/views/class-auditlogview.php:417
+msgid "Search events"
+msgstr ""
+
+#: includes/views/class-auditlogview.php:423
+msgid "Clear Search Results"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:68
+#: includes/views/class-enforce-settings-view.php:91
+#: includes/views/class-view.php:168
+msgid "Child Sites Activity Log Settings"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:136
+msgid "Enforce settings on child sites"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:137
+msgid "Use the below setting to specify on which of this child sites you’d like to enforce the configured activity log settings."
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:145
+msgid "Enforce these settings on"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:153
+msgid "Do not enforce any settings"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:160
+msgid "All child sites connected to the central activity log"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:167
+msgid "Only the following child sites"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:179
+#: includes/views/class-view.php:1022
+msgid "Child sites which have their activity log in the central MainWP activity logs"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:181
+msgid "Child sites which have enforced the configured activity log settings."
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:199
+msgid "For how long do you want to keep the activity log events (Retention settings) ?"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:202
+msgid "The plugin uses an efficient way to store the activity log data in the WordPress database, though the more data you keep the more disk space will be required. "
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:209
+msgid "Activity log retention"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:216
+msgid "Keep all data"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:224
+msgid "Delete events older than"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:231
+#: includes/views/class-view.php:971
+msgid "Months"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:232
+#: includes/views/class-view.php:972
+msgid "Years"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:246
+msgid "Disable events"
+msgstr ""
+
+#. translators: %s is replaced with the hyperlink to the list of activity IDs
+#: includes/views/class-enforce-settings-view.php:253
+msgid "Specify the ID of the events you want to disable in the child sites’ activity logs. When an ID is disabled, the plugin won’t keep a record of that particular change in the activity log. Refer to the %s to find out what change every event ID represents."
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:254
+msgid "list of activity log event IDs"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:264
+msgid "Disable the following event IDs:"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:280
+msgid "Do you want to hide the plugin from the list of installed plugins?"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:283
+msgid "By default all installed plugins are listed in the plugins page. Set this option to Yes remove WP Activity Log from the list of installed plugins for users who are unable to access the WP Activity Log settings."
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:290
+msgid "Hide Plugin in Plugins Page"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:297
+msgid "Yes, hide the plugin from the list of installed plugins"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:303
+msgid "No, do not hide the plugin"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:317
+msgid "Add user notification on the WordPress login page"
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:320
+msgid "Many compliance regulations (such as the GDPR) require website administrators to tell the users of their website that all the changes they do when logged in are being logged."
+msgstr ""
+
+#: includes/views/class-enforce-settings-view.php:364
+#: includes/views/class-view.php:1046
+msgid "Save Settings"
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:86
+msgid "Welcome"
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:90
+msgid "Child Sites"
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:148
+msgid "Activity Log MainWP &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:233
+msgid "Thank you for installing the Activity Log for MainWP Extension."
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:234
+msgid "This extension allows you to see the activity logs of all the child websites which have WP Activity Log installed from the MainWP dashboard."
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:238
+#: includes/views/class-setup-wizard.php:284
+msgid "Next"
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:255
+msgid "These are the child sites which have the WP Activity Log plugin installed. The activity log extension will automatically retrieve the logs from them to show them in the MainWP dashboard."
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:256
+msgid "Deselect those which you do not want to retrieve logs from:"
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:279
+msgid "Fetch logs from the child sites immediately?"
+msgstr ""
+
+#. translators: %s: Note
+#: includes/views/class-setup-wizard.php:282
+msgid "%s You can add or remove child websites at a later stage from the extensions settings."
+msgstr ""
+
+#. translators: %s: Note
+#: includes/views/class-setup-wizard.php:282
+msgid "Note:"
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:285
+msgid "Finish"
+msgstr ""
+
+#. Translators: %s: Getting started guide hyperlink
+#: includes/views/class-setup-wizard.php:292
+msgid "It seems that the WP Activity Log plugin is not installed on any of the child sites. Please exit this wizard, install the WP Activity Log plugin on the child sites and then add the sites from the Extensions settings. Refer to the %s for more information."
+msgstr ""
+
+#: includes/views/class-setup-wizard.php:296
+msgid "Exit Wizard"
+msgstr ""
+
+#: includes/views/class-view.php:162
+#: includes/views/class-view.php:234
+#: includes/views/class-view.php:281
+msgid "Activity Log"
+msgstr ""
+
+#: includes/views/class-view.php:174
+#: includes/views/class-view.php:261
+#: includes/views/class-view.php:307
+#: includes/views/class-view.php:427
+msgid "Extension Settings"
+msgstr ""
+
+#: includes/views/class-view.php:302
+msgid "Child Sites Settings"
+msgstr ""
+
+#: includes/views/class-view.php:530
+msgid "Select Child Site(s)"
+msgstr ""
+
+#: includes/views/class-view.php:531
+msgid "Refreshing Child Sites..."
+msgstr ""
+
+#: includes/views/class-view.php:532
+msgid "Retrieving Logs..."
+msgstr ""
+
+#: includes/views/class-view.php:696
+msgid "The Extension has to be enabled to change the settings."
+msgstr ""
+
+#: includes/views/class-view.php:763
+msgid "Activity Log Settings"
+msgstr ""
+
+#: includes/views/class-view.php:768
+msgid "Event Viewer View Type"
+msgstr ""
+
+#: includes/views/class-view.php:774
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/views/class-view.php:779
+msgid "Pagination"
+msgstr ""
+
+#: includes/views/class-view.php:787
+msgid "Events Timestamp"
+msgstr ""
+
+#: includes/views/class-view.php:793
+msgid "UTC"
+msgstr ""
+
+#: includes/views/class-view.php:798
+msgid "Timezone configured on this WordPress website"
+msgstr ""
+
+#: includes/views/class-view.php:806
+msgid "Display this user information in activity log"
+msgstr ""
+
+#: includes/views/class-view.php:812
+msgid "WordPress Username"
+msgstr ""
+
+#: includes/views/class-view.php:817
+msgid "First Name & Last Name"
+msgstr ""
+
+#: includes/views/class-view.php:822
+msgid "Configured Public Display Name"
+msgstr ""
+
+#: includes/views/class-view.php:830
+msgid "Activity Log Columns Selection"
+msgstr ""
+
+#: includes/views/class-view.php:843
+msgid "Date & Time"
+msgstr ""
+
+#: includes/views/class-view.php:847
+msgid "Source IP Address"
+msgstr ""
+
+#: includes/views/class-view.php:849
+msgid "Info (used in Grid view mode only)"
+msgstr ""
+
+#: includes/views/class-view.php:867
+msgid "MainWP Network Activity Logs"
+msgstr ""
+
+#: includes/views/class-view.php:868
+msgid "Use the below settings to disable / re-enable activity log events that are specific to the MainWP network and to also configure the pruning of such events."
+msgstr ""
+
+#: includes/views/class-view.php:870
+msgid "Enable / Disable MainWP Network Activity Log Events"
+msgstr ""
+
+#: includes/views/class-view.php:877
+msgid "Description"
+msgstr ""
+
+#: includes/views/class-view.php:910
+msgid "Activity Log Retrieval Settings"
+msgstr ""
+
+#: includes/views/class-view.php:911
+msgid "The Activity Log for MainWP extension retrieves events directly from the child sites' activity logs. Use the below settings to specify how many events the extension should retrieve and store from a child site, and how often it should do it."
+msgstr ""
+
+#: includes/views/class-view.php:916
+msgid "Number of Events to Retrieve from Child Sites"
+msgstr ""
+
+#: includes/views/class-view.php:926
+msgid "Events Retrieval Frequency"
+msgstr ""
+
+#: includes/views/class-view.php:931
+msgid "hours"
+msgstr ""
+
+#: includes/views/class-view.php:937
+msgid "Sync Events"
+msgstr ""
+
+#: includes/views/class-view.php:942
+msgid "Retrieve activity logs from child sites when I sync data with child sites."
+msgstr ""
+
+#: includes/views/class-view.php:953
+msgid "MainWP database activity logs management"
+msgstr ""
+
+#: includes/views/class-view.php:954
+msgid "Use the settings below to manage the activity log data stored in the MainWP dashboard site database. Note that these settings do not apply to the activity logs of the child sites."
+msgstr ""
+
+#: includes/views/class-view.php:958
+msgid "MainWP network activity logs retention policy"
+msgstr ""
+
+#: includes/views/class-view.php:968
+msgid "Delete events older than:"
+msgstr ""
+
+#: includes/views/class-view.php:979
+msgid "Do not delete any events."
+msgstr ""
+
+#: includes/views/class-view.php:985
+msgid "Delete the activity log data stored in the MainWP database"
+msgstr ""
+
+#: includes/views/class-view.php:989
+msgid "Delete activity log"
+msgstr ""
+
+#: includes/views/class-view.php:997
+msgid "Activity log data has been purged."
+msgstr ""
+
+#: includes/views/class-view.php:1000
+msgid "OK"
+msgstr ""
+
+#: includes/views/class-view.php:1009
+msgid "List of Child Sites in the Activity Log for MainWP"
+msgstr ""
+
+#: includes/views/class-view.php:1010
+msgid "Use the below settings to add or remove child sites' activity logs from the central activity log in the MainWP dashboard. The column on the left is a list of MainWP child sites that have the WP Activity Log plugin installed but their logs are not shown in the MainWP dashboard."
+msgstr ""
+
+#: includes/views/class-view.php:1020
+msgid "Child sites with WP Activity Log installed but not in the MainWP Activity Log"
+msgstr ""
+
+#: includes/views/class-view.php:1025
+msgid "Add to Activity Log"
+msgstr ""
+
+#: includes/views/class-view.php:1035
+msgid "Automatically retrieve activity logs from newly added sites that have WP Activity Log installed."
+msgstr ""
+
+#: includes/views/class-view.php:1158
+#: includes/views/class-view.php:1181
+#: includes/views/class-view.php:1220
+#: includes/views/class-view.php:1369
+#: includes/views/class-view.php:1435
+#: includes/views/class-view.php:1450
+msgid "Access denied."
+msgstr ""
+
+#: includes/views/class-view.php:1168
+msgid "Count parameter expected."
+msgstr ""
+
+#: includes/views/class-view.php:1173
+#: includes/views/class-view.php:1212
+#: includes/views/class-view.php:1224
+#: includes/views/class-view.php:1457
+#: includes/views/class-view.php:1484
+msgid "Nonce verification failed."
+msgstr ""
+
+#: includes/views/class-view.php:1190
+msgid "Occurrence ID parameter expected."
+msgstr ""
+
+#: includes/views/class-view.php:1242
+msgid "There is a run in progress and the ID does not match the previously stored run ID: "
+msgstr ""
+
+#: includes/views/class-view.php:1336
+msgid "Error when refreshing child sites: "
+msgstr ""
+
+#: includes/views/class-view.php:1427
+msgid "Invalid action."
+msgstr ""
+
+#: includes/views/class-view.php:1466
+msgid "Access Denied"
+msgstr ""
+
+#: includes/views/class-view.php:1607
+msgid "Add"
+msgstr ""
+
+#: includes/views/class-view.php:1664
+msgid "Refresh list of child sites"
+msgstr ""
+
+#: includes/views/class-view.php:1666
+msgid "Updating sites in the background. This can take a while, please do not navigate away from this page."
+msgstr ""

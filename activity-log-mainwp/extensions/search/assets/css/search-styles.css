@@ -1,0 +1,265 @@
+/**
+ * Search extension styles.
+ */
+.mwpal-filters-button {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#mwpal-filters-trigger:focus {
+	outline: 0;
+}
+
+#mwpal-filters-trigger span {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	width: 18px;
+	height: 22px;
+}
+
+.mwpal-filters-wrap {
+	height: 490px;
+	overflow-y: scroll;
+	padding: 0 15px;
+}
+
+.mainwp-ui .form-table tr th[scope="row"] {
+	width: 220px !important;
+}
+
+.mwpal-as-filter-widget .mwpal-widget-container input {
+	width: 200px;
+	height: 28px;
+	line-height: 1;
+}
+
+.mwpal-as-filter-widget .mwpal-widget-container .mwpal-add-button {
+	display: inline-block;
+	width: 25px;
+	height: 28px;
+	vertical-align: top;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.7;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: none;
+	color: #444;
+	-webkit-transition: 0.2s all linear;
+	transition: 0.2s all linear;
+}
+
+.mwpal-as-filter-widget .mwpal-widget-container .mwpal-add-button:focus {
+	outline: 0;
+}
+
+.mwpal-as-filter-widget .mwpal-widget-container .mwpal-add-button:hover {
+	opacity: 1;
+	-webkit-transition: 0.2s all linear;
+	transition: 0.2s all linear;
+}
+
+.mwpal-as-filter-widget .mwpal-widget-container .mwpal-add-button::before {
+	width: 25px;
+	height: 25px;
+	line-height: 1.4;
+}
+
+.mwpal-widget-error {
+	display: none;
+	color: red;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.mwpal-search-filters-list {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.mwpal-search-filters-list span {
+	display: inline-block;
+	background: #f3f5f6;
+	border: 1px solid #ddd;
+	margin-left: 5px;
+}
+
+.mwpal-search-filters-list span:first-child {
+	margin-left: 0;
+}
+
+.mwpal-search-filters-list span > input {
+	display: inline-block;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	vertical-align: middle;
+	margin: 0;
+	padding: 5px;
+	width: 140px;
+	height: 28px;
+	color: #000;
+	border-right: 1px solid #ccc;
+	border-radius: 0;
+}
+
+.mwpal-search-filters-list span > input:focus {
+	border-right: 0;
+}
+
+.mwpal-search-filters-list span > a {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 1.4;
+	height: 28px;
+	padding: 0 1px 0 0;
+	width: 28px;
+	text-align: center;
+	color: #000;
+	-webkit-transition: 0.2s all linear;
+	transition: 0.2s all linear;
+}
+
+.mwpal-search-filters-list span > a:hover {
+	color: #016087;
+}
+
+.no-filters {
+	display: none;
+}
+
+.mwpal-search-box {
+	margin: 10px 0;
+}
+
+.mwpal-filters {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	min-height: 28px;
+}
+
+.daterangepicker {
+	z-index: 99999;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+	border-radius: 0;
+	right: 1em;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover {
+	background: #efefef;
+}
+
+.mwpal-list {
+	list-style: initial;
+	padding: 0 0 0 15px;
+}
+
+#almwp-filters-container {
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 782px) {
+	#almwp-filters-container {
+		flex-direction: column;
+	}
+}
+
+#almwp-filters-container input {
+	width: 65%;
+	max-width: 25em;
+}
+
+#almwp-filters-container select {
+	width: 65%;
+	max-width: 100%;
+}
+
+.almwp-filter-group-select select {
+	margin-top: 3px;
+	width: 90% !important;
+}
+
+#almwp-filters-container .almwp-filter-group-inputs select {
+	width: 94%;
+}
+
+.filter-col {
+	flex-basis: 0;
+	flex-grow: 1;
+	margin-right: 125px;
+}
+.filter-col:last-child {
+	margin-right: 0;
+}
+
+.filter-wrap,
+.filter-col.filter-dates-col .wsal-as-filter-widget,
+.filter-col .almwp-filters-group {
+	min-height: 80px;
+}
+
+.filter-wrap:last-child,
+.filter-col.filter-dates-col .almwp-as-filter-widget:last-child {
+	min-height: auto;
+}
+
+.almwp-filter-group-select {
+	width: 25%;
+	float: left;
+}
+
+.almwp-filter-group-inputs {
+	width: 75%;
+	float: left;
+}
+
+.almwp-filter-group-inputs input {
+	width:65%;
+}
+
+.almwp-filter-group-inputs select {
+	width:92.5%;
+}
+
+input#mwpal_search_widget_ip {
+	width: 43%;
+	min-width: 125px;
+}
+
+.filter-wrap label,
+.filter-dates-col label {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.mwpal-add-button {
+	margin-left: 5px !important;
+}
+
+.almwp-filter-notice-zone.notice {
+	margin: 0 0 10px;
+}
+
+.almwp-filter-notice-zone.notice p {
+	margin: 5px 0;
+}
+
+.dashicons-left-input .dashicons.dashicons-calendar-alt {
+	position: absolute;
+	padding: 3px;
+	font-size: 22px;
+}
+
+.dashicons-left-input .mwpal_widget_date {
+	padding: 0 25px;
+}
